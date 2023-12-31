@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1F5F8;
+    flex-direction: column;
+
+
+}
+
+header {
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+
+.headtext {
+    color: #102B42;
+    font-size: 60px;
+}
+
+.headline {
+    height: 8px;
+    width: 100px;
+    background-color: #49A6EA;
+    left: 40px;
+    margin-left: 150px;
+}
+
+main {
+    height: 450px;
+    width: 715px;
+
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 20px -5px #000;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 6px -5px 0px #49A6EA;
+    margin-top: 40px;
+}
+
+.name {
+    color: #102B42;
+    font-size: 20px;
+}
+
+.work {
+    color: #49A6EA;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.maintext {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fa-chevron-left {
+    margin-right: 20px;
+    color: #49A6EA;
+}
+
+.fa-chevron-right {
+    color: #49A6EA;
+}
+
+
+.suprise {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #49A6EA, #3E7995) 1;
+    margin-top: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+}
